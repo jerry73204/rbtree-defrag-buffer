@@ -2,8 +2,13 @@
 name = "rbtree-defrag-buffer"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Red-black tree based defragmentation buffer that maintains inserted and free intervals."
+authors = ['jerry73204 <jerry73204@gmail.com>']
+documentation = 'https://docs.rs/rbtree-defrag-buffer/'
+repository = 'https://github.com/jerry73204/rbtree-defrag-buffer.git'
+homepage = 'https://github.com/jerry73204/rbtree-defrag-buffer'
+readme = 'README.md'
+license = 'MIT'
 
 [dependencies]
 anyhow = "1.0.75"
